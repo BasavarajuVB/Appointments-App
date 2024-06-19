@@ -1,0 +1,45 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #b5b7c4;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+  width: 240px;
+}
+
+.title-star-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+
+  margin-bottom: 0px;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border: 0px;
+  margin-top: 10px;
+}
+
+.date {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #b5b7c4;
+  font-size: 13px;
+}
+@media screen and (min-width: 768px) {
+  .list-item-container {
+    margin-right: 20px;
+  }
+}
